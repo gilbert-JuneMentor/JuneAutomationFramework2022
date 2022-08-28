@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 20.017 s <<< FAILURE! - in TestSuite
+amazonTitleTest(com.company.qa.testpages.AmazonTest)  Time elapsed: 1.917 s  <<< FAILURE!
+java.lang.AssertionError: expected [Amazon.com. Spend less. Smile more.] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at com.company.qa.testpages.AmazonTest.amazonTitleTest(AmazonTest.java:21)
+
+ebayTitleTest(com.company.qa.testpages.EbayTest)  Time elapsed: 1.199 s  <<< FAILURE!
+java.lang.AssertionError: expected [Amazon.com. Spend less. Smile more.] but found [Electronics, Cars, Fashion, Collectibles & More | eBay]
+	at com.company.qa.testpages.EbayTest.ebayTitleTest(EbayTest.java:19)
+

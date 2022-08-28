@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.017" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mac"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.1+9"/>
+    <property name="user.name" value="mac"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/gt/8tjw9sj151qcwjz557d8y3s40000gn/T/"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="/Volumes/Giana/Eclipse-Project_June2022/JuneBatchFrameworkDemo"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Volumes/Giana/Eclipse-Project_June2022/JuneBatchFrameworkDemo"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.1+9"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="amazonTitleTest" classname="com.company.qa.testpages.AmazonTest" time="1.917">
+    <failure message="expected [Amazon.com. Spend less. Smile more.] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Amazon.com. Spend less. Smile more.] but found [Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more]
+	at com.company.qa.testpages.AmazonTest.amazonTitleTest(AmazonTest.java:21)
+]]></failure>
+    <system-out><![CDATA[I am in onStart method Amazon Test
+Test Suite started!
+Browser name is : chrome
+I am in onTestStart method amazonTitleTest start
+amazonTitleTest started!
+Page title is Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+Page Title is Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more
+I am in onTestFailure method amazonTitleTest failed
+Screenshot captured for test case:amazonTitleTest
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307}) on port 20891
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Aug 28, 2022 8:12:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ebayTitleTest" classname="com.company.qa.testpages.EbayTest" time="1.199">
+    <failure message="expected [Amazon.com. Spend less. Smile more.] but found [Electronics, Cars, Fashion, Collectibles &amp; More | eBay]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Amazon.com. Spend less. Smile more.] but found [Electronics, Cars, Fashion, Collectibles & More | eBay]
+	at com.company.qa.testpages.EbayTest.ebayTitleTest(EbayTest.java:19)
+]]></failure>
+    <system-out><![CDATA[amazonTitleTest failed!
+I am in onFinish method Amazon Test
+Test Suite is ending!
+I am in onStart method Ebay Test
+Test Suite started!
+Browser name is : firefox
+I am in onTestStart method ebayTitleTest start
+ebayTitleTest started!
+Page Title is Electronics, Cars, Fashion, Collectibles & More | eBay
+I am in onTestFailure method ebayTitleTest failed
+Screenshot captured for test case:ebayTitleTest
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+1661699582382	geckodriver	INFO	Listening on 127.0.0.1:13679
+1661699582408	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gt/8tjw9sj151qcwjz557d8y3s40000gn/T/rust_mozprofileWrTcy5"
+2022-08-28 08:13:03.132 plugin-container[3830:92978] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 08:13:03.132 plugin-container[3830:92978] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 08:13:03.141 plugin-container[3830:92978] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 08:13:03.141 plugin-container[3830:92978] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 08:13:03.141 plugin-container[3830:92985] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 08:13:03.141 plugin-container[3830:92985] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1661699583268	Marionette	INFO	Marionette enabled
+1661699583521	Marionette	INFO	Listening on port 49528
+Read port: 49528
+1661699583744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/gt/8tjw9sj151qcwjz557d8y3s40000gn/T/rust_mozprofileWrTcy5/search.json.mozlz4", (void 0)))
+Aug 28, 2022 8:13:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+2022-08-28 15:13:09.757 plugin-container[3840:93334] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 15:13:09.757 plugin-container[3840:93334] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 15:13:09.763 plugin-container[3840:93334] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 15:13:09.763 plugin-container[3840:93334] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-08-28 15:13:09.763 plugin-container[3840:93351] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-08-28 15:13:09.763 plugin-container[3840:93351] nil host used in call to allowsAnyHTTPSCertificateForHost:
+]]></system-err>
+  </testcase>
+</testsuite>
